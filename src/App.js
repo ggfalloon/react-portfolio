@@ -1,14 +1,28 @@
 import React from 'react';
-import profileImage from './images/IMG_6321.jpg';
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navbar from "./components/Navbar";
+import Home from "./components/Home"
+import About from "./components/About";
+import Connect from "./components/Connect";
+import Portfolio from "./components/Portfolio";
+import Footer from "./components/Footer";
+import Wrapper from "./components/Wrapper";
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Gabriele Falloon</h1>
-      <h2>Full Stack Web Developer</h2>
-      <img src={profileImage} alt="my pic" width="200" />
-    </div>
+    <Router>
+      <div className="App">
+        <Navbar />
+        <Wrapper>
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/connect" component={Connect} />
+        </Wrapper>
+        <Footer />
+      </div>
+    </Router>
   );
 }
 
