@@ -5,7 +5,7 @@ import empimage from "../images/EmpTracker.png";
 import burgerimage from "../images/BurgerEater.png";
 import teamimage from "../images/TeamGenerator.png";
 
-const portfolio = [
+const projects = [
     {
         id: 1,
         title: "Pill Box",
@@ -67,4 +67,4 @@ const portfolio = [
     }
 ];
 
-export default portfolio;
+export default projects;

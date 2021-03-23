@@ -1,7 +1,8 @@
 import React from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFile, } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope, faFile } from '@fortawesome/free-solid-svg-icons';
 
 
 function Footer() {
@@ -14,13 +15,14 @@ function Footer() {
                         title="Email" />
                 </span></a>
                 <a href="https://github.com/ggfalloon" target="_blank" rel="noreferrer"><span>
-                    <FontAwesomeIcon className="git grey-tooltip"
+                    <FontAwesomeIcon icon={faGithub} className="git grey-tooltip"
                         data-toggle="tooltip" data-placement="top" title="Github" /></span>
                 </a>
 
-                <a href="https://www.linkedin.com/in/gabriele-falloon/" target="_blank" rel="noreferrer"><span><i
-                    className="fab fa-linkedin link grey-tooltip" data-toggle="tooltip" data-placement="top"
-                    title="LinkedIn"></i></span>
+                <a href="https://www.linkedin.com/in/gabriele-falloon/" target="_blank" rel="noreferrer"><span>
+                    <FontAwesomeIcon icon={faLinkedin}
+                        className="link grey-tooltip" data-toggle="tooltip" data-placement="top"
+                        title="LinkedIn" /></span>
                 </a>
 
                 <a href="./G.FalloonResume.pdf"><span>

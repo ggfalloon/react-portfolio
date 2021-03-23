@@ -1,10 +1,10 @@
 import React from "react";
-import portfolio from "../components/Projects";
+import projects from "../components/Projects";
 import { useState } from "react";
 
 
 function Portfolio() {
-    const [portfolios] = useState(portfolio);
+    const [portfolios] = useState(projects);
 
     return (
         <div className="card-title">
