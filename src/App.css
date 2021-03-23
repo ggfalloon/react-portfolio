@@ -99,12 +99,28 @@ hr {
   opacity: 1;
 }
 
+.connect-rule {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin-right: 10rem;
+  margin-left: 10rem;
+  border: 0;
+  border-top: 2px solid rgb(255, 208, 0);
+}
+
 #footer {
   background-color:rgb(24, 130, 138); 
   text-align: center;
   padding-right: 10px;
   list-style-type: none; 
   margin: 0%;
+}
+
+.link-connect {
+  color: rgb(61, 3, 61);
+  font-size: 4em;
+  line-height: 1em;
+  padding: .3em;
 }
 
 /* Styles tooltips on footer */
@@ -118,4 +134,30 @@ hr {
 .footer-padding {
   margin-left: 20px;
 }
+.tooltip-arrow,
+.grey-tooltip + .tooltip > .tooltip-inner{
+    background-color: rgb(37, 39, 41);
+    color: white;
+    font-size: 2em;
+}
+
+.footer-padding {
+    margin-left: 20px;
+}
+
+/* Styles anchor links in footer */
+.git, .link {
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+    padding: .3em;
+}
+
+.git:hover, .link:hover {
+    color: rgb(61, 3, 61);
+    font-size: 2em;
+    line-height: 1em;
+}
+
+
 

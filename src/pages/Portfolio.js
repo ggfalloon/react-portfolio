@@ -1,5 +1,7 @@
 import React from "react";
 import projects from "../components/Projects";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
 
@@ -16,7 +18,7 @@ function Portfolio() {
                         <div className="row">
                             <div className="col-md-6">
                                 <h3>{item.title} - <a href={item.href} target="_blank" rel="noreferrer">
-                                    <span><i className="fab fa-github-square iconPort"></i></span>
+                                    <span><FontAwesomeIcon icon={faGithub} className="iconPort" /></span>
                                 </a></h3>
                                 <div className="overlayHolder">
                                     <a href={item.githref} target="_blank" rel="noreferrer">
