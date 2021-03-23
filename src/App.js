@@ -1,10 +1,10 @@
 import React from 'react';
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Navbar from "./components/Navbar";
-import Home from "./components/Home"
-import About from "./components/About";
-import Connect from "./components/Connect";
-import Portfolio from "./components/Portfolio";
+import Home from "./pages/Home"
+import About from "./pages/About";
+import Connect from "./pages/Connect";
+import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import './App.css';
