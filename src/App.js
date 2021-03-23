@@ -8,12 +8,18 @@ import Portfolio from "./pages/Portfolio";
 import Footer from "./components/Footer";
 import Wrapper from "./components/Wrapper";
 import './App.css';
+import Jumbotron from './components/Jumbotron';
+import bgimage from "./images/porfoliobannerimg.png";
 
 function App() {
   return (
     <Router>
       <div className="App container">
         <Navbar />
+        <Jumbotron style={{
+          backgroundImage: `url(${bgimage})`,
+          backgroundSize: 'cover'
+        }} ></Jumbotron>
         <Wrapper>
           <Route exact path="/" component={Home} />
           <Route exact path="/about" component={About} />

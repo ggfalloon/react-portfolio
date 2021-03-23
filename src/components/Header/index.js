@@ -1,11 +1,12 @@
 import React from "react";
+import "./style.css";
 
-function Projects(props) {
+function Header() {
     return (
         <div>
-            <h1>Projects</h1>
+            <hr />
         </div>
     )
 }
 
-export default Projects;
+export default Header;

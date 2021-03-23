@@ -1,0 +1,8 @@
+hr {
+    margin-top: 7rem;
+    margin-bottom: 7rem;
+    margin-right: 5rem;
+    margin-left: 5rem;
+    border: 0;
+    border-top: 3px solid rgb(255, 208, 0);
+}
