@@ -14,3 +14,14 @@ hr {
     border: 0;
     border-top: 3px solid rgb(255, 208, 0);
 }
+
+@media screen and (max-width: 760px) {
+
+    .header-img {
+        background: url(../images/IMG_6321.jpg) no-repeat;
+        background-size: cover;
+        height: 80vh;
+        margin: auto;
+    }
+    
+}
