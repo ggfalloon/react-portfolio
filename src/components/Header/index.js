@@ -3,8 +3,7 @@ import "./style.css";
 
 function Header() {
     return (
-        <div>
-            <hr />
+        <div className="header-img">
         </div>
     )
 }
