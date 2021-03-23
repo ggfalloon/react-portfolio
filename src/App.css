@@ -10,3 +10,112 @@ body {
   padding-bottom: 60px;
 }
 
+.details, table {
+  font-size: 1.2em;
+}
+
+h2 {
+  text-align: center;
+  
+}
+
+.h2card {
+  margin-top: 3rem;
+  margin-bottom: 0;
+}
+
+/* Styled horizontal rule */
+hr {
+  margin-top: 7rem;
+  margin-bottom: 7rem;
+  margin-right: 5rem;
+  margin-left: 5rem;
+  border: 0;
+  border-top: 3px solid rgb(255, 208, 0);
+}
+
+#hr1 {
+  display:none;
+}
+
+.responsBrk {
+  margin-top: 0px;
+}
+
+/* Adjusted table background color */
+.table-style {
+  background-color: #6b7177;
+} 
+
+#submit {
+  background-color: rgb(255, 208, 0);
+  color:#55585c;
+}
+
+#submit:hover {
+  background-color:rgb(24, 130, 138); 
+  color:white;
+}
+
+.iconPort {
+  color: rgb(24, 130, 138);
+  font-size: 1.5em;
+  line-height: 1em;
+  padding: .3em;
+}
+
+.iconPort:hover {
+  color: rgb(255, 208, 0);
+  font-size: 1.7em;
+}
+
+/* Sets hover postion for website link on portfolio thumbnails */
+.overlayHolder {
+  position: relative;
+}
+
+.img-thumb {
+  display: block;
+  width: 100%;
+  height: 275px
+}
+
+/* Styles overlay for link to website */
+.img-overlay {
+  position: absolute; 
+  bottom: 0px; 
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  height: 100%;
+  transition: .5s ease;
+  opacity:0;
+  color: white;
+  font-size: 20px;
+  padding: 50px;
+  text-align: center;
+}
+
+.overlayHolder:hover .img-overlay {
+  opacity: 1;
+}
+
+#footer {
+  background-color:rgb(24, 130, 138); 
+  text-align: center;
+  padding-right: 10px;
+  list-style-type: none; 
+  margin: 0%;
+}
+
+/* Styles tooltips on footer */
+.tooltip-arrow,
+.grey-tooltip + .tooltip > .tooltip-inner{
+  background-color: rgb(37, 39, 41);
+  color: white;
+  font-size: 2em;
+}
+
+.footer-padding {
+  margin-left: 20px;
+}
+

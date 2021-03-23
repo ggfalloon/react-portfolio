@@ -1,7 +1,7 @@
 import React from "react";
 import "./style.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faEnvelope, faFile, } from '@fortawesome/free-solid-svg-icons'
+import { faEnvelope, faFile, } from '@fortawesome/free-solid-svg-icons';
 
 
 function Footer() {

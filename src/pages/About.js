@@ -2,15 +2,15 @@ import React from "react";
 
 function About() {
     return (
-        <div className="container">
-            <div className="row col-12 mx-auto">
-                <div className="col-md-6 mx-auto">
+        <div classNameName="container">
+            <div classNameName="row col-12 mx-auto">
+                <div classNameName="col-md-6 mx-auto">
 
                     <h2>About Me</h2>
                     <br />
-                    <div className="page-header">
+                    <div classNameName="page-header">
 
-                        <section className="details text-justify">
+                        <section classNameName="details justify-content-center">
                             <p>Coding is awesome! As a web developer I'm able
                             to creatively
                             enhance the
@@ -34,7 +34,42 @@ function About() {
                         </section>
                     </div>
                 </div>
-            </div>
+                <br />
+
+                <div className="col-md-5 mx-auto">
+                    <h2 className="responsBrk">Skill Set</h2>
+                    <br />
+                    <div className="page-header d-flex justify-center">
+                        <table className="table table-dark table-style th-sm-8rem" style={{ textAlign: "center" }}>
+                            <tbody>
+                                <tr>
+                                    <td>HTML/CSS</td>
+                                    <td>Bootstrap</td>
+                                </tr>
+                                <tr>
+                                    <td>JavaScript</td>
+                                    <td>jQuery</td>
+                                </tr>
+                                <tr>
+                                    <td>MySQL</td>
+                                    <td>Express</td>
+                                </tr>
+                                <tr>
+                                    <td>Node.js</td>
+                                    <td>React</td>
+                                </tr>
+                                <tr>
+                                    <td>MongoDB</td>
+                                    <td>Git</td>
+                                </tr>
+
+                            </tbody>
+                        </table>
+                    </div>
+
+                </div>
+
+            </div >
         </div>
     )
 }
