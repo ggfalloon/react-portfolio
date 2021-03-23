@@ -1,0 +1,39 @@
+#footer {
+    background-color:rgb(24, 130, 138); 
+    text-align: center;
+    padding-right: 10px;
+    list-style-type: none; 
+    margin: 0%;
+}
+
+/* Styles tooltips on footer */
+.tooltip-arrow,
+.grey-tooltip + .tooltip > .tooltip-inner{
+    background-color: rgb(37, 39, 41);
+    color: white;
+    font-size: 2em;
+}
+
+.footer-padding {
+    margin-left: 20px;
+}
+
+.git, .link {
+    color: white;
+    font-size: 2em;
+    line-height: 1em;
+    padding: .3em;
+}
+
+.git:hover, .link:hover {
+    color: rgb(61, 3, 61);
+    font-size: 2em;
+    line-height: 1em;
+}
+
+.link-connect {
+    color: rgb(61, 3, 61);
+    font-size: 4em;
+    line-height: 1em;
+    padding: .3em;
+}
