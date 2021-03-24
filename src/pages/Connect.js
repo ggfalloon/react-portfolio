@@ -19,7 +19,7 @@ function Connect() {
                                     title="Email" />
                             </span></a>
                             <a href="https://github.com/ggfalloon" target="_blank" rel="noreferrer"><span>
-                                <FontAwesomeIcon icon={faGithub} className="link-connect git grey-tooltip"
+                                <FontAwesomeIcon icon={faGithub} className="link-connect grey-tooltip"
                                     data-toggle="tooltip" data-placement="top" title="Github" /></span>
                             </a>
 
