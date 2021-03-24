@@ -47,16 +47,6 @@ hr {
   background-color: #6b7177;
 } 
 
-#submit {
-  background-color: rgb(255, 208, 0);
-  color:#55585c;
-}
-
-#submit:hover {
-  background-color:rgb(24, 130, 138); 
-  color:white;
-}
-
 .iconPort {
   color: rgb(24, 130, 138);
   font-size: 1.5em;

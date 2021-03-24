@@ -2,15 +2,16 @@ import React from "react";
 
 function About() {
     return (
-        <div classNameName="container">
-            <div classNameName="row col-12 mx-auto">
-                <div classNameName="col-md-6 mx-auto">
+        <div className="container mt-5 pt-3">
+            <hr className="connect-rule" />
+            <div className="row col-12 mx-auto">
+                <div className="col-md-6 mx-auto">
 
                     <h2>About Me</h2>
                     <br />
-                    <div classNameName="page-header">
+                    <div className="page-header">
 
-                        <section classNameName="details justify-content-center">
+                        <section className="details justify-content-center">
                             <p>Coding is awesome! As a web developer I'm able
                             to creatively
                             enhance the
@@ -70,6 +71,8 @@ function About() {
                 </div>
 
             </div >
+            <hr className="connect-rule" />
+
         </div>
     )
 }
