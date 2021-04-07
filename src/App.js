@@ -14,8 +14,9 @@ function App() {
   return (
     <Router>
       <Navbar />
+      <Home />
       <Wrapper>
-        <Route exact path="/" component={Home} />
+        <Route exact path={["/", "/home"]} component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/portfolio" component={Portfolio} />
         <Route exact path="/connect" component={Connect} />
