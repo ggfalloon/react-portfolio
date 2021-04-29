@@ -26,7 +26,7 @@ function Footer() {
                     <ReactTooltip id="linkTip" place="top" effect="solid">LinkedIn</ReactTooltip>
                 </span></a>
 
-                <a href="./G.FalloonResume.pdf"><span>
+                <a href="https://docs.google.com/document/d/14geqN3mXqk8-io23slj5y9EDN8epTw5l10ymWiCBjuk/export?format=pdf"><span>
                     <FontAwesomeIcon icon={faFile} className="link" data-tip data-for="resTip" />
                     <ReactTooltip id="resTip" place="top" effect="solid">Resume</ReactTooltip>
                 </span>
