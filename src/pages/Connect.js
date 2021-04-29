@@ -31,7 +31,7 @@ function Connect() {
                                 <ReactTooltip id="linkTip" place="top" effect="solid">LinkedIn</ReactTooltip>
                             </span></a>
 
-                            <a href="https://docs.google.com/document/d/14geqN3mXqk8-io23slj5y9EDN8epTw5l10ymWiCBjuk/export?format=pdf"><span>
+                            <a href="https://drive.google.com/file/d/163ue6RJe2QV_gYDvBhhi7FPbjnJPPxbj/view" target="_blank" rel="noopener noreferrer"><span>
                                 <FontAwesomeIcon icon={faFile} className="link-connect" data-tip data-for="resTip" />
                                 <ReactTooltip id="resTip" place="top" effect="solid">Resume</ReactTooltip>
                             </span>
