@@ -12,16 +12,25 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <Router>
-      <Navbar />
-      <Wrapper>
-        <Route exact path="/home" component={Home} />
-        <Route exact path="/about" component={About} />
-        <Route exact path="/portfolio" component={Portfolio} />
-        <Route exact path="/connect" component={Connect} />
-      </Wrapper>
-      <Footer />
-    </Router>
+    <Wrapper>
+      <Router>
+        <Navbar />
+        <Route exact path="/">
+          <Home />
+        </Route>
+        <Route path="/about">
+          <About />
+        </Route>
+        <Route path="/portfolio" >
+          <Portfolio />
+        </Route>
+        <Route path="/connect">
+          <Connect />
+        </Route>
+
+        <Footer />
+      </Router>
+    </Wrapper>
   );
 }
 
