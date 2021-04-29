@@ -1,12 +1,12 @@
 import React from "react";
-import projects from "../components/Projects";
+import Projects from "../components/Projects";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { useState } from "react";
 
 
 function Portfolio() {
-    const [portfolios] = useState(projects);
+    const [portfolios] = useState(Projects);
 
     return (
         <div className="container">
