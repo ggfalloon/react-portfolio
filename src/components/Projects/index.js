@@ -1,13 +1,23 @@
-import pbimage from "../images/pillBox.png";
-import noteimage from "../images/noteTaker.png";
-import betimage from "../images/BETTER-WEATHER-2020.png";
-import empimage from "../images/EmpTracker.png";
-import burgerimage from "../images/BurgerEater.png";
-import teamimage from "../images/TeamGenerator.png";
+import pbimage from "../../images/pillBox.png";
+import noteimage from "../../images/noteTaker.png";
+import betimage from "../../images/BETTER-WEATHER-2020.png";
+import empimage from "../../images/EmpTracker.png";
+import alistsimage from "../../images/a-lists.png";
+import teamimage from "../../images/TeamGenerator.png";
 
 const projects = [
     {
         id: 1,
+        title: "A-LISTS",
+        href: "https://github.com/ggfalloon/a-lists",
+        githref: "https://a-lists.herokuapp.com/",
+        image: alistsimage,
+        description:
+            "Heroku deployed React app. Users save watchlists for quick access to shows and movies.",
+        languages: "React/JSX Node.js/ MySQL/ Bootstrap"
+    },
+    {
+        id: 2,
         title: "Pill Box",
         href: "https://github.com/ggfalloon/Pill-Box",
         githref: "https://sheltered-caverns-06883.herokuapp.com/",
@@ -17,7 +27,7 @@ const projects = [
         languages: "JavaScript/ Node.js/ MySQL/ Bootstrap"
     },
     {
-        id: 2,
+        id: 3,
         title: "Note Taker",
         href: "https://github.com/ggfalloon/NoteTaker",
         githref: "https://quiet-peak-88900.herokuapp.com/",
@@ -27,7 +37,7 @@ const projects = [
         languages: "JavaScript/ Node.js/ Express.js"
     },
     {
-        id: 3,
+        id: 4,
         title: "Better Weather",
         href: "https://github.com/ggfalloon/BETTER-WEATHER",
         githref: "https://github.com/ggfalloon/BETTER-WEATHER",
@@ -36,7 +46,7 @@ const projects = [
         languages: "JavaScript/ Node.js/ Express.js"
     },
     {
-        id: 4,
+        id: 5,
         title: "Employee Tracker",
         href: "https://github.com/ggfalloon/NoteTaker",
         githref: "https://quiet-peak-88900.herokuapp.com/",
@@ -44,16 +54,6 @@ const projects = [
         description:
             "Heroku deployed app using an express server. Write, save and delete notes to stay on top of tasks.",
         languages: "HTML5/ TailwindCSS/ JavaScript/ jQuery"
-    },
-    {
-        id: 5,
-        title: "Burger Eater",
-        href: "https://github.com/ggfalloon/BurgerEater",
-        githref: "https://infinite-sea-58389.herokuapp.com/",
-        image: burgerimage,
-        description:
-            "Heroku deployed, full stack, fun burger app.",
-        languages: "Node.js/ MySQL/ JavaScript/ Handlebars/ORM"
     },
     {
         id: 6,
