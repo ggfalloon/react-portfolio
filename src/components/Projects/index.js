@@ -23,7 +23,7 @@ const projects = [
         githref: "https://sheltered-caverns-06883.herokuapp.com/",
         image: pbimage,
         description:
-            "Heroku deployed responsive app.Caretakers can keep medications organized and reduce errors.",
+            "Heroku deployed responsive app. Caretakers can keep medications organized and reduce errors.",
         languages: "JavaScript/ Node.js/ MySQL/ Bootstrap"
     },
     {
