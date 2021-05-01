@@ -1,6 +1,7 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import AnchorLink from "react-anchor-link-smooth-scroll";
 import "./style.css";
+
 
 
 function Navbar() {
@@ -8,7 +9,7 @@ function Navbar() {
         <div className="container">
             <nav className="navbar fixed-top navbar-expand-md navbar-dark">
 
-                <a href="/react-portfolio" className="navbar-brand left-nav" >Gabriele Falloon</a>
+                <a href="/react-portfolio" className="navbar-brand left-nav">Gabriele Falloon</a>
 
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
                     aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -18,23 +19,22 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <a href="#about"
+                            <AnchorLink href="#about"
                                 className={
                                     window.location.pathname === "#about"
                                         ? "nav-link active"
-                                        : "nav-link"} >About</a>
+                                        : "nav-link"} >About</AnchorLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#portfolio"
-                                className={window.location.pathname === "#portfolio" ? "nav-link active" : "nav-link"}>Portfolio</a>
+                            <AnchorLink href="#portfolio"
+                                className={window.location.pathname === "#portfolio" ? "nav-link active" : "nav-link"}>Portfolio</AnchorLink>
                         </li>
                         <li className="nav-item">
-                            <a href="#connect"
-                                className={window.location.pathname === "#connect" ? "nav-link active" : "nav-link"}>Connect</a>
+                            <AnchorLink href="#connect"
+                                className={window.location.pathname === "#connect" ? "nav-link active" : "nav-link"}>Connect</AnchorLink>
                         </li>
                     </ul>
                 </div>
-
             </nav>
         </div>
     );
