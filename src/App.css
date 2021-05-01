@@ -38,6 +38,7 @@ body {
 
 .details, table {
   font-size: 1.2em;
+  text-align: justify;
 }
 
 h2 {
