@@ -2,16 +2,16 @@ import React from "react";
 
 function About() {
     return (
-        <div className="container mt-5 pt-3">
-            <hr className="connect-rule" />
-            <div className="row col-12 mx-auto">
-                <div className="col-md-6 mx-auto">
+        <div id="about">
+
+            <div className="row mx-auto m-5 p-5">
+                <div className="col-md-5 mx-auto">
 
                     <h2>About Me</h2>
                     <br />
                     <div className="page-header">
 
-                        <section className="details justify-content-center">
+                        <section className="details">
                             <p>Coding is awesome! As a web developer I'm able
                             to creatively
                             enhance the
@@ -37,11 +37,11 @@ function About() {
                 </div>
                 <br />
 
-                <div className="col-md-5 mx-auto">
-                    <h2 className="responsBrk">Skill Set</h2>
+                <div className="col-md-4 mx-auto" id="responsBrk">
+                    <h2 >Skill Set</h2>
                     <br />
                     <div className="page-header d-flex justify-center">
-                        <table className="table table-dark table-style th-sm-8rem" style={{ textAlign: "center" }}>
+                        <table className="table th-sm-8rem" id="table-style" style={{ textAlign: "center" }}>
                             <tbody>
                                 <tr>
                                     <td>HTML/CSS</td>
@@ -75,7 +75,6 @@ function About() {
                 </div>
 
             </div >
-            <hr className="connect-rule" />
 
         </div>
     )

@@ -18,7 +18,7 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <Link to="#about"
+                            <Link to="/about"
                                 className={
                                     window.location.pathname === "/about"
                                         ? "nav-link active"
