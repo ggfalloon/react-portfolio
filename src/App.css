@@ -21,6 +21,8 @@ body {
   overflow: visible;
 }
 
+/* Styling for about section */
+
 #about {
   background-color: rgba(36, 1, 36, 0.884);
   margin: 0;
@@ -64,23 +66,10 @@ h2 {
   color: #ffffff;
 }
 
+/* Styling for portfolio section */
 #portfolio {
   padding-top: 60px;
   color: rgba(36, 1, 36, 0.884);
-}
-#connect {
-  background-color: rgba(36, 1, 36, 0.884);
-  margin: 0;
-  border: 0;
-  color: rgba(36, 1, 36, 0.884);
-}
-
-h5 {
-  color: #ffffff;
-}
-
-.copyright {
-  padding: 110px;
 }
 
 .iconPort {
@@ -124,6 +113,22 @@ h5 {
   opacity: 1;
 }
 
+/* Styling for connect section */
+#connect {
+  background-color: rgba(36, 1, 36, 0.884);
+  margin: 0;
+  border: 0;
+  color: rgba(36, 1, 36, 0.884);
+}
+
+h5 {
+  color: #ffffff;
+}
+
+.copyright {
+  padding: 110px;
+}
+
 .connect-rule {
   margin-top: 2rem;
   margin-bottom: 2rem;
@@ -131,14 +136,6 @@ h5 {
   margin-left: 10rem;
   border: 0;
   border-top: 2px solid rgb(255, 208, 0);
-}
-
-#footer {
-  background-color:rgb(24, 130, 138); 
-  text-align: center;
-  padding-right: 10px;
-  list-style-type: none; 
-  margin: 0%;
 }
 
 .link-connect {
@@ -154,6 +151,14 @@ h5 {
   font-size: 4em;
   line-height: 1em;
   padding: .5rem;
+}
+
+#footer {
+  background-color:rgb(24, 130, 138); 
+  text-align: center;
+  padding-right: 10px;
+  list-style-type: none; 
+  margin: 0%;
 }
 
 .footer-padding {
@@ -178,6 +183,7 @@ h5 {
 
 @media screen and (max-width: 768px) {
 
+  /* provides a break in about section between columns */
   #responsBrk{
     padding-top: 40px;
   }
