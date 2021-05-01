@@ -15,11 +15,10 @@
 
 body {
   background-color: #ffffff;
-
   font-size: 18px;
   padding-top: 55px;   
   padding-bottom: 60px;
-  /* overflow:visible; */
+  overflow: visible;
 }
 
 #about {
@@ -50,16 +49,6 @@ h2 {
   margin-bottom: 0;
 }
 
-/* Styled horizontal rule */
-/* hr {
-  margin-top: 7rem;
-  margin-bottom: 7rem;
-  margin-right: 5rem;
-  margin-left: 5rem;
-  border: 0;
-  border-top: 3px solid rgb(255, 208, 0);
-} */
-
 #hr1 {
   display:none;
 }
@@ -75,7 +64,7 @@ h2 {
 }
 
 #portfolio {
-  padding-top: 20px;
+  padding-top: 60px;
   color: rgba(36, 1, 36, 0.884);
 }
 #connect {
@@ -109,12 +98,6 @@ h5 {
   position: relative;
 }
 
-.img-thumb {
-  display: block;
-  width: 100%;
-  height: 275px
-}
-
 /* Styles overlay for link to website */
 .img-overlay {
   position: absolute; 
@@ -128,6 +111,12 @@ h5 {
   font-size: 20px;
   padding: 50px;
   text-align: center;
+}
+
+.img-thumb {
+  display: block;
+  width: 100%;
+  height: 275px;
 }
 
 .overlayHolder:hover .img-overlay {

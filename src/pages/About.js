@@ -2,7 +2,7 @@ import React from "react";
 
 function About() {
     return (
-        <div id="about">
+        <div className="pt-5" id="about">
 
             <div className="row mx-auto m-5 p-5">
                 <div className="col-md-5 mx-auto">

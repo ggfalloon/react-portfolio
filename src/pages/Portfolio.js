@@ -24,7 +24,7 @@ function Portfolio() {
                                 <a href={item.githref} target="_blank" rel="noreferrer">
                                     <img src={item.image}
                                         alt="app page screenshot"
-                                        className="img-thumbnail img-thumb" />
+                                        className="img-thumbnail img-thumb shadow-sm p-2 mb-5 bg-white rounded" />
                                     <div className="img-overlay">
                                         <p>{item.description}</p>
                                         <p>{item.languages}</p>
