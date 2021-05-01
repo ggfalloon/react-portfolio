@@ -9,9 +9,13 @@
   text-align: center;
 }
 
+.card {
+  margin-top: 100px;
+}
+
 body {
   background-color: #ffffff;
-  color: #55585c;
+
   font-size: 18px;
   padding-top: 55px;   
   padding-bottom: 60px;
@@ -19,11 +23,12 @@ body {
 }
 
 #about {
-  background-color: rgb(61, 3, 61);
+  background-color: rgba(36, 1, 36, 0.884);
   margin: 0;
   border: 0;
   margin-right: 0;
   color: #ffffff;
+  padding: 25px;
   /* display: flex; */
   /* justify-content: space-between; */
   /* height: 400px; */
@@ -38,7 +43,6 @@ body {
 
 h2 {
   text-align: center;
-  
 }
 
 .h2card {
@@ -70,7 +74,24 @@ h2 {
   color: #ffffff;
 }
 
-/* #4e596e */
+#portfolio {
+  padding-top: 20px;
+  color: rgba(36, 1, 36, 0.884);
+}
+#connect {
+  background-color: rgba(36, 1, 36, 0.884);
+  margin: 0;
+  border: 0;
+  color: rgba(36, 1, 36, 0.884);
+}
+
+h5 {
+  color: #ffffff;
+}
+
+.copyright {
+  padding: 110px;
+}
 
 .iconPort {
   color: rgb(24, 130, 138);

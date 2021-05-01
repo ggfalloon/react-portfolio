@@ -26,13 +26,13 @@
 }
 
 .git:hover, .link:hover {
-    color: rgb(61, 3, 61);
+    color: rgba(36, 1, 36, 0.884);
     font-size: 2em;
     line-height: 1em;
 }
 
 .link-connect {
-    color: rgb(61, 3, 61);
+    color: rgba(36, 1, 36, 0.884);
     font-size: 4em;
     line-height: 1em;
     padding: .3em;

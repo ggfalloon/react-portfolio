@@ -9,7 +9,7 @@ function Portfolio() {
     const [portfolios] = useState(Projects);
 
     return (
-        <div className="container" id="portfolio">
+        <div id="portfolio">
             <div className="card-title">
                 <h2 className="h2card">Portfolio</h2>
                 <hr className="connect-rule" />
