@@ -15,7 +15,7 @@ hr {
     border-top: 3px solid rgb(255, 208, 0);
 }
 
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 880px) {
 
     .header-img {
         background: url(../../images/IMG_6321.jpg) no-repeat;
@@ -27,7 +27,20 @@ hr {
     
 }
 
-@media screen and (max-width: 560px) {
+@media screen and (max-width: 600px) {
+
+    .header-img {
+        background: url(../../images/IMG_6321.jpg) no-repeat;
+        background-size: cover;
+        height: 80vh;
+        margin: auto;
+        margin-top: -30px;
+    }
+
+}
+    
+
+@media screen and (max-width: 400px) {
 
     .header-img {
         background: url(../../images/IMG_6321.jpg) no-repeat;
@@ -36,6 +49,5 @@ hr {
         margin: auto;
         margin-top: -30px;
     }
-
     
 }
