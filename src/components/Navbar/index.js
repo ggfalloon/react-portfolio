@@ -19,18 +19,18 @@ function Navbar() {
                 <div className="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item">
-                            <AnchorLink href="#about"
+                            <AnchorLink href="#about" data-toggle="collapse" data-target=".navbar-collapse"
                                 className={
                                     window.location.pathname === "#about"
                                         ? "nav-link active"
                                         : "nav-link"} >About</AnchorLink>
                         </li>
                         <li className="nav-item">
-                            <AnchorLink href="#portfolio"
+                            <AnchorLink href="#portfolio" data-toggle="collapse" data-target=".navbar-collapse"
                                 className={window.location.pathname === "#portfolio" ? "nav-link active" : "nav-link"}>Portfolio</AnchorLink>
                         </li>
                         <li className="nav-item">
-                            <AnchorLink href="#connect"
+                            <AnchorLink href="#connect" data-toggle="collapse" data-target=".navbar-collapse"
                                 className={window.location.pathname === "#connect" ? "nav-link active" : "nav-link"}>Connect</AnchorLink>
                         </li>
                     </ul>
