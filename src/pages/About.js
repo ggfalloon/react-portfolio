@@ -4,7 +4,7 @@ function About() {
     return (
         <div className="pt-5" id="about">
 
-            <div className="row mx-auto m-5 p-5">
+            <div className="row mx-auto p-5 about-cont">
                 <div className="col-md-5 mx-auto">
 
                     <h2>About Me</h2>

@@ -22,6 +22,20 @@ hr {
         background-size: cover;
         height: 80vh;
         margin: auto;
+        margin-top: -30px;
     }
+    
+}
+
+@media screen and (max-width: 560px) {
+
+    .header-img {
+        background: url(../../images/IMG_6321.jpg) no-repeat;
+        background-size: cover;
+        height: 50vh;
+        margin: auto;
+        margin-top: -30px;
+    }
+
     
 }
