@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Lato' sans-serif;
 }
 
 .App {
@@ -204,6 +204,36 @@ h5 {
   .link {
     margin-right: 10px;
   }
+
+  .about-cont {
+    font-size: 14px;
+  }
+
+  .about-cont h2 {
+    font-size: 22px;
+  }
+
+  .card-title h2 {
+    font-size: 26px;
+  }
+
+  .portfolio h3 {
+    font-size: 22px;
+  }
+
+  .card h2 {
+    font-size: 26px;
+  }
+
+  .copyright h5 {
+    font-size: 18px;
+  }
+
+  #about .about-cont .p-5 {
+   padding: 1rem;
+  }
+ 
+
 
 }
 
