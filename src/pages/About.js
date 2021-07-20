@@ -28,7 +28,7 @@ function About() {
                             company that is
                             pushing
                             the
-                            boundaries of technology and utilizing the incredible possiblities of coding. When I'm
+                            boundaries of technology and utilizing the incredible possibilities of coding. When I'm
                             not writing code, I'm
                             cooking and staying fit. I also love to travel - I'm always ready for an
                             adventure.</p>
