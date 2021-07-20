@@ -20,9 +20,10 @@ hr {
     .header-img {
         background: url(../../images/IMG_6321.jpg) no-repeat;
         background-size: cover;
-        height: 80vh;
+        height: 100vh;
         margin: auto;
         margin-top: -30px;
+        
     }
     
 }
@@ -35,6 +36,7 @@ hr {
         height: 80vh;
         margin: auto;
         margin-top: -30px;
+       
     }
 
 }
@@ -45,9 +47,16 @@ hr {
     .header-img {
         background: url(../../images/IMG_6321.jpg) no-repeat;
         background-size: cover;
-        height: 50vh;
-        margin: auto;
-        margin-top: -30px;
+        height: 65vh;
+        background-color: rgb(24, 130, 138);
+        width: 115%;
+        /* margin: auto;
+        margin-top: -30px; */
+        margin-left: -45px;
+    }
+
+    #home {
+        background-color: rgb(24, 130, 138);
     }
     
 }
